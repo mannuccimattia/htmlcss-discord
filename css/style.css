@@ -72,6 +72,10 @@ header{
   padding: 10px;
 }
 
+.pt-60{
+  padding: 60px;
+}
+
 .py-10-t{
   padding-top: 10px;
 }
@@ -241,8 +245,8 @@ footer hr{
 }
 
 /* main style */
-.item1-text{
-  padding: 40px 100px 40px 20px;
+.item-text{
+  padding: 40px;
   line-height: 1.2;
 }
 
@@ -252,6 +256,6 @@ h2{
 
 p{
   margin-top: 20px;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.8;
 }
