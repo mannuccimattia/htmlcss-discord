@@ -1,0 +1,190 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* common */
+body{
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+header{
+  background-color: rgb(193, 219, 241);
+  padding: 10px 0px;
+}
+
+/* layout */
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-sm{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* utility */
+.w20{
+  width: 20%;
+}
+
+.w40{
+  width: 40%;
+}
+
+.w60{
+  width: 60%;
+}
+
+.h30{
+  height: 30px;
+}
+
+.h50{
+  height: 50px;
+}
+
+.h150{
+  height: 150px;
+}
+
+.h350{
+  height: 350px;
+}
+
+.h400{
+  height: 400px;
+}
+
+.h500{
+  height: 500px;
+}
+
+.my-10{
+  margin-top: 10px;
+}
+
+.pt-7{
+  padding: 7px;
+}
+
+.py-10-t{
+  padding-top: 10px;
+}
+
+.py-50-t{
+  padding-top: 50px;
+}
+
+.py-50-b{
+  padding-bottom: 50px;
+}
+
+.py-60{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.border-dash{
+  border: 2px dashed black;
+}
+
+.bg-goldenrod{
+  background-color: goldenrod;
+}
+
+.bg-navy{
+  background-color: navy;
+}
+
+.bg-fuchsia{
+  background-color: fuchsia;
+}
+
+.bg-pink{
+  background-color: pink;
+}
+
+.bg-dpink{
+  background-color: rgb(207, 137, 180);
+}
+
+.bg-lblue{
+  background-color: lightblue;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.bg-lgrey{
+  background-color: lightgrey;
+}
+
+.bg-dgreen{
+  background-color: darkgreen;
+}
+
+.bg-dgrey{
+  background-color: rgb(50, 50, 50);
+}
+
+.bg-teal{
+  background-color: teal;
+}
+
+.bg-aquamarine{
+  background-color: aquamarine;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.justify-betw{
+  justify-content: space-between;
+}
+
+.align-center{
+  align-items: center;
+}
+
+/* page content style */
+.header-content ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+.header-content ul li{
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.login{
+  text-align: end;
+}
+
+.container-sm .bg-fuchsia{
+  height: 300px;
+}
+
+.bg-dgrey .bg-dpink{
+  flex-grow: 2;
+}
+
+.bg-dgrey .bg-teal{
+  border: 2px dashed white;
+  flex-grow: 1;
+}
+
+footer hr{
+  color: white;
+}
+
+.btn{
+  padding: 4px 15px;
+  font-size: 14px;
+}
