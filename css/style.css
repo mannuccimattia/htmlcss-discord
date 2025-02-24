@@ -11,8 +11,9 @@ body{
 }
 
 header{
-  background-color: rgb(193, 219, 241);
+  background-color: #255EE9;
   padding: 10px 0px;
+  color: #fff;
 }
 
 /* layout */
@@ -67,12 +68,20 @@ header{
   margin-top: 10px;
 }
 
-.pt-7{
-  padding: 7px;
+.pt-10{
+  padding: 10px;
 }
 
 .py-10-t{
   padding-top: 10px;
+}
+
+.py-15-t{
+  padding-top: 15px;
+}
+
+.py-20-t{
+  padding-top: 20px;
 }
 
 .py-50-t{
@@ -160,7 +169,7 @@ header{
 
 .header-content ul li{
   display: inline-block;
-  margin: 0px 5px;
+  margin: 0px 15px;
 }
 
 .login{
@@ -187,4 +196,12 @@ footer hr{
 .btn{
   padding: 4px 15px;
   font-size: 14px;
+}
+
+input[value="Accedi"]{
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fff;
 }
