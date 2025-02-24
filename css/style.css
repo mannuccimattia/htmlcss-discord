@@ -40,6 +40,18 @@ header{
   width: 60%;
 }
 
+.w75{
+  width: 75%;
+}
+
+.w80{
+  width: 80%;
+}
+
+.w100{
+  width: 100%;
+}
+
 .h30{
   height: 30px;
 }
@@ -262,4 +274,9 @@ p{
 
 img[alt="item4"]{
   width: 100%;
+}
+
+.w100 h2, .w100 p{
+  text-align: center;
+  margin: 0 auto;
 }
