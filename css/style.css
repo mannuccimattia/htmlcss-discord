@@ -23,7 +23,7 @@ header{
 }
 
 .container-sm{
-  max-width: 800px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
@@ -138,7 +138,7 @@ header{
 }
 
 .bg-dgrey{
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(40, 40, 40);
 }
 
 .bg-teal{
@@ -176,8 +176,45 @@ header{
   text-align: end;
 }
 
-.container-sm .bg-fuchsia{
-  height: 300px;
+input[value="Accedi"]{
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fff;
+}
+
+#jumbotron{
+  background-image: url(../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
+#jumbotron .content{
+  height: 500px;
+  padding-top: 100px;
+  text-align: center;
+  line-height: 1.5;
+  color: #fff;
+  font-size: large;
+}
+
+#jumbotron p{
+  font-size: 19px;
+  padding: 50px 0px 20px 0px;
+}
+
+.btn{
+  margin: 0 10px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px; 
+}
+
+#jumbotron .bg-dgrey{
+  color: white;
 }
 
 .bg-dgrey .bg-dpink{
@@ -193,15 +230,7 @@ footer hr{
   color: white;
 }
 
-.btn{
+.footer-btn{
   padding: 4px 15px;
   font-size: 14px;
-}
-
-input[value="Accedi"]{
-  width: 80px;
-  height: 40px;
-  border-radius: 20px;
-  border: none;
-  background-color: #fff;
 }
