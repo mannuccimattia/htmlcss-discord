@@ -259,3 +259,7 @@ p{
   font-size: 18px;
   line-height: 1.8;
 }
+
+img[alt="item4"]{
+  width: 100%;
+}
