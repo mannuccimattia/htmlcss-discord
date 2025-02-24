@@ -11,9 +11,8 @@ body{
 }
 
 header{
-  background-color: #255EE9;
+  background-color: #3656E4;
   padding: 10px 0px;
-  color: #fff;
 }
 
 /* layout */
@@ -64,30 +63,6 @@ header{
   width: 100%;
 }
 
-.h30{
-  height: 30px;
-}
-
-.h50{
-  height: 50px;
-}
-
-.h150{
-  height: 150px;
-}
-
-.h350{
-  height: 350px;
-}
-
-.h400{
-  height: 400px;
-}
-
-.h500{
-  height: 500px;
-}
-
 .my-10{
   margin-top: 10px;
 }
@@ -129,40 +104,12 @@ header{
   padding-bottom: 30px;
 }
 
-.border-dash{
-  border: 2px dashed black;
-}
-
 .color-white{
   color: #fff;
 }
 
 .color-blue{
   color: #5479d6;
-}
-
-.bg-goldenrod{
-  background-color: goldenrod;
-}
-
-.bg-navy{
-  background-color: navy;
-}
-
-.bg-fuchsia{
-  background-color: fuchsia;
-}
-
-.bg-pink{
-  background-color: pink;
-}
-
-.bg-dpink{
-  background-color: rgb(207, 137, 180);
-}
-
-.bg-lblue{
-  background-color: lightblue;
 }
 
 .bg-white{
@@ -173,20 +120,8 @@ header{
   background-color: lightgrey;
 }
 
-.bg-dgreen{
-  background-color: darkgreen;
-}
-
 .bg-dgrey{
   background-color: rgb(40, 40, 40);
-}
-
-.bg-teal{
-  background-color: teal;
-}
-
-.bg-aquamarine{
-  background-color: aquamarine;
 }
 
 .d-flex{
@@ -195,10 +130,6 @@ header{
 
 .justify-betw{
   justify-content: space-between;
-}
-
-.justify-evenly{
-  justify-content: space-evenly;
 }
 
 .align-center{
