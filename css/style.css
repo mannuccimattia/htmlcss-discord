@@ -28,8 +28,16 @@ header{
 }
 
 /* utility */
+.w18{
+  width: 18%;
+}
+
 .w20{
   width: 20%;
+}
+
+.w28{
+  width: 28%;
 }
 
 .w40{
@@ -84,6 +92,10 @@ header{
   padding: 10px;
 }
 
+.pt40{
+  padding: 40px;
+}
+
 .pt-60{
   padding: 60px;
 }
@@ -115,6 +127,14 @@ header{
 
 .border-dash{
   border: 2px dashed black;
+}
+
+.color-white{
+  color: #fff;
+}
+
+.color-blue{
+  color: #5479d6;
 }
 
 .bg-goldenrod{
@@ -173,6 +193,10 @@ header{
   justify-content: space-between;
 }
 
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
 .align-center{
   align-items: center;
 }
@@ -213,7 +237,6 @@ input[value="Accedi"]{
   padding-top: 120px;
   text-align: center;
   line-height: 1.5;
-  color: #fff;
   font-size: large;
 }
 
@@ -232,28 +255,6 @@ input[value="Accedi"]{
   border: none;
   border-radius: 30px;
   font-size: 18px; 
-}
-
-#jumbotron .bg-dgrey{
-  color: white;
-}
-
-.bg-dgrey .bg-dpink{
-  flex-grow: 2;
-}
-
-.bg-dgrey .bg-teal{
-  border: 2px dashed white;
-  flex-grow: 1;
-}
-
-footer hr{
-  color: white;
-}
-
-.footer-btn{
-  padding: 4px 15px;
-  font-size: 14px;
 }
 
 /* main style */
@@ -297,5 +298,46 @@ h3.bg-stars{
 
 #bottom-btn{
   background-color: #5479d6;
-  color: #fff;
+}
+
+/* footer */
+footer h3{
+  font-size: 30px;
+  color: #5479d6;
+}
+
+footer h5{
+  font-size: 16px;
+  color: #5479d6;
+}
+
+.footer-btn{
+  padding: 4px 15px;
+  font-size: 14px;
+}
+
+img[alt="ita"]{
+  height: 1em;
+}
+
+.region{
+  margin: 20px 0px;
+}
+
+i{
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin: 24px 0px;
+  font-size: 14px;
+}
+
+hr{
+  margin-top:30px;
 }
