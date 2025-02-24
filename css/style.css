@@ -276,7 +276,26 @@ img[alt="item4"]{
   width: 100%;
 }
 
-.w100 h2, .w100 p{
+.w100 h2, .w100 p, .w60 h3{
   text-align: center;
   margin: 0 auto;
+}
+
+.w60 h3{
+  font-size: 30px;
+}
+
+h3.bg-stars{
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.content-btn{
+  text-align: center;
+}
+
+#bottom-btn{
+  background-color: #5479d6;
+  color: #fff;
 }
